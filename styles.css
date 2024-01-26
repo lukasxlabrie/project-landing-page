@@ -14,4 +14,11 @@ background-color: greenyellow;
 
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
 }
