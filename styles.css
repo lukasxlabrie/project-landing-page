@@ -19,6 +19,7 @@ background-color: greenyellow;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 62px;
 }
 
 .headerlinks {
@@ -30,4 +31,10 @@ background-color: greenyellow;
     gap:10px;
     list-style: none;
     font-weight: 100;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
