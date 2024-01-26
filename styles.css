@@ -39,4 +39,6 @@ background-color: greenyellow;
     align-items: center;
 }
 
-.bold, 
+.bold, .button {
+    justify-content: flex-start;
+}
