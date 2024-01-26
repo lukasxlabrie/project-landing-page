@@ -11,3 +11,7 @@
 .top, .header, .headerlinks {
 background-color: greenyellow;
 }
+
+.header, .headerlinks {
+    display: flex;
+}
