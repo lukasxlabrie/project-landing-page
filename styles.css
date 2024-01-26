@@ -23,4 +23,6 @@ background-color: greenyellow;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 0px;
+    gap:10px;
 }
