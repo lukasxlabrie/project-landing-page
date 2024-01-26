@@ -12,6 +12,9 @@
 background-color: greenyellow;
 }
 
+.headername {
+    font-weight: 900;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -26,4 +29,5 @@ background-color: greenyellow;
     margin: 0px;
     gap:10px;
     list-style: none;
+    font-weight: 100;
 }
