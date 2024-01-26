@@ -25,4 +25,5 @@ background-color: greenyellow;
     align-items: flex-start;
     margin: 0px;
     gap:10px;
+    list-style: none;
 }
