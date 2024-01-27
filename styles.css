@@ -102,3 +102,10 @@ padding-left: 90px;
     align-items: center;
     flex-wrap: nowrap;
 }
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
