@@ -1,7 +1,7 @@
 .size1 {
     height: 200x;
     width: 300px;
-    padding-right: 100px;
+    padding-right: 400px;
     padding-left: 25px;
 }
 
@@ -62,4 +62,8 @@ background-color: rgba(223, 230, 5, 0.602);
     text-decoration: none;
     margin-left: 100px;
     color: rgba(0, 140, 255, 0.608);
+}
+
+.bold {
+padding-left: 90px;
 }
