@@ -79,4 +79,6 @@ padding-left: 90px;
     align-items: center;
     flex-wrap: nowrap;
     list-style: none;
+    padding-left: 300px;
+    padding-right: 300px;
 }
