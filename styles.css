@@ -71,3 +71,9 @@ background-color: rgba(223, 230, 5, 0.602);
 .bold {
 padding-left: 90px;
 }
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
