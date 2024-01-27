@@ -101,6 +101,7 @@ padding-left: 90px;
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
+    flex-shrink: 0;
 }
 
 .bottom {
@@ -109,9 +110,13 @@ padding-left: 90px;
     justify-content: space-around;
     align-items: center;
     padding-top: 50px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
 }
 
 .quote {
     align-items: flex-end;
     padding-left: 500px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
 }
