@@ -14,6 +14,7 @@ background-color: rgba(223, 230, 5, 0.602);
 
 .headername {
     font-weight: 900;
+    color: rgb(22, 210, 178);
 }
 .header {
     display: flex;
@@ -31,7 +32,8 @@ background-color: rgba(223, 230, 5, 0.602);
     margin: 0px;
     gap:10px;
     list-style: none;
-    font-weight: 100;
+    font-weight: 300;
+    color: rgba(0, 140, 255, 0.608);
 }
 
 .top {
@@ -42,14 +44,15 @@ background-color: rgba(223, 230, 5, 0.602);
 
 .toptext {
     flex-direction: column;
+    color: rgba(0, 140, 255, 0.608);
 }
 
 .button {
     display: inline-block;
     padding: 5px 10px;
-    background-color: rgb(22, 211, 179);
+    background-color: rgb(22, 210, 178);
     text-align: center;
     text-decoration: none;
     margin-left: 16px;
-    color: black;
+    color: rgba(0, 140, 255, 0.608);
 }
