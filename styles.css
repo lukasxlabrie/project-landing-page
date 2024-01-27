@@ -123,21 +123,25 @@ padding-left: 90px;
     flex-shrink: 0;
 }
 
+.booking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    padding: 5px 100px;
+    background-color: rgb(22, 210, 178);
+    color: rgba(0, 140, 255, 0.608);
+}
+
 .bookus {
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.booking {
-    display: flex;
-    justify-content: center;
-}
-
-.box {
-    margin-top: 32px;
-    padding: 5px 100px;
-    background-color: rgb(22, 210, 178);
-    color: rgba(0, 140, 255, 0.608);
+    padding-left: 50px;
 }
