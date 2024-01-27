@@ -126,14 +126,11 @@ padding-left: 90px;
 .booking {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: rgba(223, 230, 5, 0.602);
 }
 
 .box {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
     margin-top: 64px;
     padding: 5px 100px;
     background-color: rgb(22, 210, 178);
@@ -141,21 +138,27 @@ padding-left: 90px;
     margin-bottom: 64px;
 }
 
-.txtone {
-    display: flex;
-    justify-content: baseline;
+.left {
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
+    padding-right: 32px;
+}
+
+.right {
+    display: flex;
 }
 
 .txttwo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    margin-top: 0%;
+  
 }
 
 .txtthree {
+    
     display: flex;
-    text-decoration: none;
+    padding-left: 32px;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
+    text-decoration: none;
 }
