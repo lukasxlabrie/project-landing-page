@@ -19,6 +19,8 @@ background-color: rgba(223, 230, 5, 0.602);
     color: rgb(22, 210, 178);
     padding-left: 200px;
     padding-right: 62px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
 }
 .header {
     display: flex;
