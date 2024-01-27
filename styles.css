@@ -125,7 +125,7 @@ padding-left: 90px;
 
 .box {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     display: inline-block;
     padding: 5px 100px;
