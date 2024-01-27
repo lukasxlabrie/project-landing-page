@@ -87,3 +87,9 @@ padding-left: 90px;
     padding-left: 300px;
     padding-right: 300px;
 }
+
+.middle {
+    padding-top: 100px;
+    background-color: rgb(6, 151, 103);
+    color: rgba(0, 140, 255, 0.608);
+}
