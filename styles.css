@@ -19,7 +19,8 @@ background-color: rgba(223, 230, 5, 0.602);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 62px;
+    padding-bottom: 80px;
+    
 }
 
 .headerlinks {
