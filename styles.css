@@ -123,8 +123,12 @@ padding-left: 90px;
     flex-shrink: 0;
 }
 
-.box {
+.booking {
     display: flex;
+    justify-content: center;
+}
+
+.box {
     padding: 5px 100px;
     background-color: rgb(22, 210, 178);
     color: rgba(0, 140, 255, 0.608);
@@ -132,8 +136,6 @@ padding-left: 90px;
 
 .button2 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: flex-end;
     text-decoration: none;
 }
