@@ -123,6 +123,14 @@ padding-left: 90px;
     flex-shrink: 0;
 }
 
+.booking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+
+}
+
 .box {
     display: flex;
     justify-content: flex-start;
