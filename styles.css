@@ -72,8 +72,10 @@ background-color: rgba(223, 230, 5, 0.602);
 padding-left: 90px;
 }
 
-.middle {
+.middlepics {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
 }
