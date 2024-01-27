@@ -75,7 +75,7 @@ padding-left: 90px;
 .middlepics {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: nowrap;
 }
