@@ -93,3 +93,11 @@ padding-left: 90px;
     background-color: rgb(6, 151, 103);
     color: rgba(80, 17, 109, 0.608);
 }
+
+.singles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
