@@ -1,3 +1,11 @@
+body {
+margin: 0;
+padding: 0;
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+}
+
 .size1 {
     height: 250px;
     width: 400px;
@@ -161,4 +169,11 @@ padding-left: 90px;
     justify-content: flex-end;
     align-items: center;
     text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(95, 0, 183);
 }
