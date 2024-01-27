@@ -30,6 +30,7 @@ background-color: rgba(223, 230, 5, 0.602);
     flex-wrap: nowrap;
     flex-shrink: 0;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -94,6 +95,7 @@ padding-left: 90px;
     list-style: none;
     padding-left: 300px;
     padding-right: 300px;
+    gap: 25px;
 }
 
 .middle {
