@@ -18,13 +18,14 @@ font-family: fantasy;
     width: 150px;
 }
 
-.top, .header {
-background-color: rgba(223, 230, 5, 0.602);
+.top {
+    background-color: rgb(210, 180, 140);
+    padding-top: 32px;
 }
 
 .headername {
     font-weight: 900;
-    color: rgb(22, 210, 178);
+    color:rgb(210, 153, 95);
     padding-left: 200px;
     padding-right: 62px;
     flex-wrap: nowrap;
@@ -36,22 +37,27 @@ background-color: rgba(223, 230, 5, 0.602);
     justify-content: space-between;
     align-items: flex-start;
     padding-bottom: 80px;
-    
+    background-color: black;
+    padding-bottom: 0;
 }
 
 .headerlinks {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: center;
     flex-wrap: nowrap;
     flex-shrink: 0;
     margin: 0px;
-    gap:10px;
-    list-style: none;
-    font-weight: 300;
-    color: rgba(0, 140, 255, 0.608);
+    gap: 10px;
     padding-right: 200px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.img, .middlepics {
+    box-shadow: 10px 10px 20px;
 }
 
 .top {
@@ -63,18 +69,18 @@ background-color: rgba(223, 230, 5, 0.602);
 
 .toptext {
     flex-direction: column;
-    color: rgba(0, 140, 255, 0.608);
+    color:rgb(9, 9, 9);
     padding-left: 100px;
 }
 
 .button {
     display: inline-block;
     padding: 5px 10px;
-    background-color: rgb(22, 210, 178);
+    background-color: rgba(196, 206, 142, 0.658);
     text-align: center;
     text-decoration: none;
     margin-left: 100px;
-    color: rgba(0, 140, 255, 0.608);
+    color:rgb(0, 0, 0);
     border-radius: 10px;
 }
 
@@ -102,8 +108,7 @@ padding-left: 90px;
 .middle {
     padding-top: 20px;
     padding-bottom: 60px;
-    background-color: rgb(6, 151, 103);
-    color: rgba(80, 17, 109, 0.608);
+    background-color: rgb(139, 168, 124);
 }
 
 .singles {
@@ -123,8 +128,8 @@ padding-left: 90px;
     padding-top: 50px;
     flex-wrap: nowrap;
     flex-shrink: 0;
-    background-color:aquamarine;
-    color: rgba(4, 176, 255, 0.71);
+    background-color: rgb(89, 109, 79);
+    color: rgba(7, 8, 8, 0.71);
 }
 
 .quote {
@@ -137,15 +142,15 @@ padding-left: 90px;
 .booking {
     display: flex;
     justify-content: center;
-    background-color: rgba(223, 230, 5, 0.602);
+    background-color:rgb(210, 180, 140);
+    color: black;
 }
 
 .box {
     display: flex;
     margin-top: 64px;
     padding: 5px 100px;
-    background-color: rgb(22, 210, 178);
-    color: rgba(0, 140, 255, 0.608);
+    background-color: rgb(139, 168, 124);
     margin-bottom: 64px;
 }
 
@@ -175,12 +180,12 @@ padding-left: 90px;
     border: 10px;
     border-radius: 10px;
     margin: 10px;
-    box-shadow: 5px 5px 10px green;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: rgb(95, 0, 183);
+    background-color: rgb(34, 32, 29);
+    color:rgb(210, 153, 95);
 }
