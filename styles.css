@@ -25,7 +25,7 @@ font-family: fantasy;
 
 .headername {
     font-weight: 900;
-    color:rgb(210, 153, 95);
+    color:rgb(34, 139, 34);
     padding-left: 200px;
     padding-right: 62px;
     flex-wrap: nowrap;
@@ -54,6 +54,11 @@ font-family: fantasy;
     list-style: none;
     text-decoration: none;
     font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(231, 167, 103);
 }
 
 .img, .middlepics {
@@ -85,7 +90,7 @@ font-family: fantasy;
     text-align: center;
     text-decoration: none;
     margin-left: 100px;
-    color:rgb(0, 0, 0);
+    color: rgb(231, 167, 103);
     border-radius: 10px;
 }
 
@@ -192,5 +197,5 @@ padding-left: 90px;
     justify-content: center;
     align-items: flex-end;
     background-color: rgb(112, 99, 80);
-    color:rgb(210, 153, 95);
+    color:rgb(34, 139, 34);
 }
