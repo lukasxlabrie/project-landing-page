@@ -75,6 +75,7 @@ background-color: rgba(223, 230, 5, 0.602);
     text-decoration: none;
     margin-left: 100px;
     color: rgba(0, 140, 255, 0.608);
+    border-radius: 10px;
 }
 
 .bold {
